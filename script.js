@@ -23,15 +23,15 @@ function clickbtn(){
 fetch(`https://api.weatherapi.com/v1/current.json?key=6b92d33f29994aeebb323446202709&q=${textarea.value}`)
 .then(reponse=>{ return reponse.json()})
 .then(data=>{
-    console.log(data)
     
-    // const img =document.createElement("img");
+    
+    
     img.classList.add("imgtag")
     console.log(img)
     img.setAttribute("src"," ")
     img.src=(data.current.condition.icon)
     
-    // document.body.appendChild(img)
+    
 
     contentheading1.innerText=data.location.name
     contentheading2.innerText=data.location.region
