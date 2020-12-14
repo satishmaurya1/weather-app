@@ -40,8 +40,8 @@
 }
 
 .content{
-    border: 2px solid black;
-    margin-top: 4rem;
+    
+    margin-top: 7rem;
     width: 26rem;
     height: 19rem;
     margin-left: auto;
@@ -78,4 +78,18 @@
     color: white;
     border-radius: 2rem;
     margin-top: 1rem;
+}
+
+.content .content3{
+    background-color: rgb(207, 158, 221);
+    
+    margin-right: 1rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+.content .content2 .img{
+    float: right;
 }
